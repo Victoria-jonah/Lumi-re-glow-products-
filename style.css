@@ -1,0 +1,68 @@
+#parent{
+    height: 420px;
+}
+
+#images{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+#text-p{
+    margin-top: 110px;
+}
+
+#text-a{
+    margin-top: 100px;
+}
+
+#text-b{
+    margin-top: 100px;
+}
+
+#shake{
+    #shake:hover{
+        transform: scale(2.9);
+    }
+    
+    #shake{
+        transition: 0.85 ease;
+    }
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#rose{
+    height: 300px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated {
+  animation: fadeIn 3s ease-in-out;
+}
